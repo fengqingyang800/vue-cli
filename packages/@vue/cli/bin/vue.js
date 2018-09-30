@@ -7,6 +7,7 @@ const chalk = require('chalk')
 const semver = require('semver')
 const requiredVersion = require('../package.json').engines.node
 
+// 检测node的版本，如果node版本不符合给出提示，直接退出
 function checkNodeVersion (wanted, id) {
   if (!semver.satisfies(process.version, wanted)) {
     console.log(chalk.red(
@@ -38,6 +39,7 @@ const program = require('commander')
 const loadCommand = require('../lib/util/loadCommand')
 
 program
+  // 声明下版本 -V --version
   .version(require('../package').version)
   .usage('<command> [options]')
 
