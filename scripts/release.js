@@ -30,8 +30,9 @@ How to do a release:
 */
 
 process.env.VUE_CLI_RELEASE = true
-
+// 一个更好的child_process
 const execa = require('execa')
+// npm的语义版本
 const semver = require('semver')
 const inquirer = require('inquirer')
 const { syncDeps } = require('./syncDeps')
@@ -39,6 +40,7 @@ const { syncDeps } = require('./syncDeps')
 const curVersion = require('../lerna.json').version
 
 const release = async () => {
+  // 打印版本
   console.log(`Current version: ${curVersion}`)
 
   const bumps = ['patch', 'minor', 'major', 'prerelease']
