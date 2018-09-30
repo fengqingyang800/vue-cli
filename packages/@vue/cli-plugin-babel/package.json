@@ -1,6 +1,6 @@
 {
   "name": "@vue/cli-plugin-babel",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "babel plugin for vue-cli",
   "main": "index.js",
   "repository": {
