@@ -4,11 +4,14 @@
 // The user may be on a very old node version
 
 const chalk = require('chalk')
+// 语义化版本控制 https://semver.org/lang/zh-CN/
 const semver = require('semver')
+// 需要兼容的node最低版本
 const requiredVersion = require('../package.json').engines.node
 
-// 检测node的版本，如果node版本不符合给出提示，直接退出
+// 检测node的版本，如果node版本不符合给出提示，直接退出，satisfies - 满足
 function checkNodeVersion (wanted, id) {
+  // 如果本地安装的版本不满足要求，则给出警告退出
   if (!semver.satisfies(process.version, wanted)) {
     console.log(chalk.red(
       'You are using Node ' + process.version + ', but this version of ' + id +
@@ -20,9 +23,14 @@ function checkNodeVersion (wanted, id) {
 
 checkNodeVersion(requiredVersion, 'vue-cli')
 
+// 满足了继续向下走
 const fs = require('fs')
 const path = require('path')
+// slash 将Windows的反斜线转化为Unix类型的斜线
+// 转化前 Unix => foo/bar  Window => foo\\bar
+// 转化后 Unix => foo/bar  Windiw => foo/bar
 const slash = require('slash')
+// 命令行参数解析工具，optimist的简化版 https://github.com/substack/minimist
 const minimist = require('minimist')
 
 // enter debug mode when creating test repo
@@ -35,28 +43,32 @@ if (
   process.env.VUE_CLI_DEBUG = true
 }
 
+// 命令行工具 https://github.com/tj/commander.js#readme TJ大神
 const program = require('commander')
 const loadCommand = require('../lib/util/loadCommand')
 
 program
   // 声明下版本 -V --version
   .version(require('../package').version)
+  // 设置使用方法，输出内容
   .usage('<command> [options]')
 
+// 创建命令
 program
   .command('create <app-name>')
-  .description('create a new project powered by vue-cli-service')
-  .option('-p, --preset <presetName>', 'Skip prompts and use saved or remote preset')
-  .option('-d, --default', 'Skip prompts and use default preset')
+  .description('通过 vue-cli-service 创建一个新的工程')
+  .option('-p, --preset <presetName>', '跳过提示，使用默认的或者远程的preset')
+  .option('-d, --default', '跳过提示，使用默认的preset')
   .option('-i, --inlinePreset <json>', 'Skip prompts and use inline JSON string as preset')
-  .option('-m, --packageManager <command>', 'Use specified npm client when installing dependencies')
-  .option('-r, --registry <url>', 'Use specified npm registry when installing dependencies (only for npm)')
-  .option('-g, --git [message]', 'Force git initialization with initial commit message')
-  .option('-n, --no-git', 'Skip git initialization')
-  .option('-f, --force', 'Overwrite target directory if it exists')
-  .option('-c, --clone', 'Use git clone when fetching remote preset')
-  .option('-x, --proxy', 'Use specified proxy when creating project')
-  .option('-b, --bare', 'Scaffold project without beginner instructions')
+  .option('-m, --packageManager <command>', '安装依赖的时候使用指定的客户端')
+  .option('-r, --registry <url>', '使用指定的源安装依赖(only for npm)')
+  .option('-g, --git [message]', '使用初始提交消息强制git初始化')
+  .option('-n, --no-git', '跳过git初始化')
+  .option('-f, --force', '创建工程时，如果目录已经存在则覆盖')
+  .option('-c, --clone', '当获取远程preset时使用git克隆')
+  .option('-x, --proxy', '创建工程时使用指定的代理')
+  .option('-b, --bare', '没有初学者指导的脚手架项目')
+  // 为命令注册回调函数
   .action((name, cmd) => {
     const options = cleanArgs(cmd)
     // --no-git makes commander to default git to true
