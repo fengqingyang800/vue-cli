@@ -7,7 +7,7 @@ exports.generateTitle = async function (checkUpdate) {
   const { current, latest } = await getVersions()
 
   let title = chalk.bold.blue(`Vue CLI v${current}`)
-
+  // 测试环境下
   if (process.env.VUE_CLI_TEST) {
     title += ' ' + chalk.blue.bold('TEST')
   }

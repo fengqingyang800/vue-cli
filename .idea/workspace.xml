@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="357ceab8-16cc-430f-b0a4-ede1d7257202" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hello/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/@vue/cli/bin/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/@vue/cli/bin/vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/@vue/cli/lib/Creator.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/@vue/cli/lib/Creator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/@vue/cli/lib/PromptModuleAPI.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/@vue/cli/lib/PromptModuleAPI.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/@vue/cli/lib/add.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/@vue/cli/lib/add.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/@vue/cli/lib/create.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/@vue/cli/lib/create.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/@vue/cli/lib/options.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/@vue/cli/lib/options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/@vue/cli/lib/promptModules/babel.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/@vue/cli/lib/promptModules/babel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/@vue/cli/lib/promptModules/cssPreprocessors.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/@vue/cli/lib/promptModules/cssPreprocessors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/@vue/cli/lib/promptModules/linter.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/@vue/cli/lib/promptModules/linter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/@vue/cli/lib/promptModules/typescript.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/@vue/cli/lib/promptModules/typescript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/@vue/cli/lib/promptModules/unit.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/@vue/cli/lib/promptModules/unit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/@vue/cli/lib/util/clearConsole.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/@vue/cli/lib/util/clearConsole.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,40 +32,61 @@
     <session id="-70693406">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.12" value="2" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="7" />
           <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.16" value="2" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="eslintignore" value="1" />
-          <entry key="js" value="49" />
-          <entry key="json" value="12" />
-          <entry key="md" value="7" />
-          <entry key="npmignore" value="1" />
+          <entry key="applescript" value="1" />
+          <entry key="editorconfig" value="1" />
+          <entry key="eslintignore" value="2" />
+          <entry key="gitignore" value="2" />
+          <entry key="gql" value="1" />
+          <entry key="js" value="457" />
+          <entry key="json" value="32" />
+          <entry key="lock" value="1" />
+          <entry key="md" value="11" />
+          <entry key="npmignore" value="5" />
+          <entry key="png" value="3" />
+          <entry key="postcssrc" value="1" />
+          <entry key="vue" value="11" />
+          <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="12" />
-          <entry key="JavaScript" value="49" />
-          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="Image" value="3" />
+          <entry key="JSON" value="32" />
+          <entry key="JavaScript" value="457" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="23" />
+          <entry key="Vue.js" value="11" />
+          <entry key="YAML" value="1" />
+          <entry key="yarn.lock" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="599" />
+          <entry key="js" value="1616" />
           <entry key="json" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="20" />
-          <entry key="JavaScript" value="599" />
+          <entry key="JavaScript" value="1616" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -64,51 +99,100 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/packages/@vue/cli-ui/package.json">
+        <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/create.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/packages/@vue/cli/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="709">
-              <caret line="58" column="3" selection-start-line="58" selection-start-column="3" selection-end-line="58" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/packages/@vue/cli/bin/vue.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="65" column="29" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
+            <state relative-caret-position="464">
+              <caret line="77" column="22" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hello/babel.config.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hello/package.json">
+        <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/Creator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="343">
+              <caret line="86" column="14" lean-forward="true" selection-start-line="86" selection-start-column="14" selection-end-line="86" selection-end-column="14" />
+              <folding>
+                <element signature="e#7040#8002#0" />
+                <element signature="e#8040#9252#0" />
+                <element signature="e#9339#9985#0" />
+                <element signature="e#10027#10189#0" />
+                <element signature="e#10242#11009#0" />
+                <element signature="e#11036#12364#0" />
+                <element signature="e#12391#12868#0" />
+                <element signature="e#12905#13221#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lerna.json">
+        <entry file="file://$PROJECT_DIR$/packages/@vue/cli/node_modules/pify/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            <state relative-caret-position="117">
+              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="mock://fs.js">
+          <provider selected="true" editor-type-id="vmFileEditor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="mock://fs.js">
+          <provider selected="true" editor-type-id="vmFileEditor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/Generator.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="71" column="15" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/promptModules/babel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/PromptModuleAPI.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/promptModules/unit.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+              <folding>
+                <element signature="e#46#259#0" />
+                <element signature="e#281#622#0" />
+                <element signature="e#670#872#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/promptModules/vuex.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#46#190#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -117,20 +201,46 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>version</find>
-      <find>eng</find>
-      <find>en</find>
-      <find>options</find>
-      <find>cliOptions</find>
+      <find>slash</find>
+      <find>semver</find>
       <find>minimist</find>
-      <find>cleanArgs</find>
-      <find>generator</find>
-      <find>3.0.5</find>
-      <find>HelloWorld</find>
+      <find>loadCommand</find>
+      <find>.usage('&lt;command&gt; [options]')</find>
+      <find>inquirer</find>
+      <find>VUE_CLI_DEBUG</find>
+      <find>resolveOu</find>
+      <find>execa</find>
+      <find>command</find>
+      <find>pwa</find>
+      <find>vue.config.js</find>
+      <find>userOptions</find>
+      <find>useBuiltIn</find>
+      <find>projectOptions</find>
+      <find>loadUserOptions</find>
+      <find>version</find>
+      <find>mail</find>
+      <find>private</find>
+      <find>ts</find>
+      <find>preset</find>
+      <find>toShortPluginId</find>
+      <find>gitignore</find>
+      <find>defaults</find>
+      <find>getPresets</find>
+      <find>isManualMode</find>
+      <find>resolveIntroPrompts</find>
+      <find>resolveOutroPrompts</find>
+      <find>completeCbs</find>
+      <find>createCompleteCbs</find>
     </findStrings>
     <dirStrings>
-      <dir>$PROJECT_DIR$/packages</dir>
       <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/packages/@vue</dir>
+      <dir>$PROJECT_DIR$/node_modules</dir>
+      <dir>$PROJECT_DIR$/packages/@vue/cli-service</dir>
+      <dir>$PROJECT_DIR$/packages</dir>
+      <dir>$PROJECT_DIR$/packages/@vue/cli-shared-utils</dir>
+      <dir>$PROJECT_DIR$/packages/@vue/cli</dir>
+      <dir>$PROJECT_DIR$/packages/@vue/cli/lib</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -141,10 +251,20 @@
       <list>
         <option value="$PROJECT_DIR$/scripts/release.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/packages/@vue/cli/bin/vue.js" />
-        <option value="$PROJECT_DIR$/packages/@vue/cli/lib/create.js" />
         <option value="$PROJECT_DIR$/hello/package.json" />
         <option value="$PROJECT_DIR$/lerna.json" />
+        <option value="$PROJECT_DIR$/packages/@vue/cli/lib/promptModules/cssPreprocessors.js" />
+        <option value="$PROJECT_DIR$/packages/@vue/cli/lib/promptModules/linter.js" />
+        <option value="$PROJECT_DIR$/packages/@vue/cli/lib/promptModules/typescript.js" />
+        <option value="$PROJECT_DIR$/packages/@vue/cli/lib/promptModules/unit.js" />
+        <option value="$PROJECT_DIR$/packages/@vue/cli/lib/add.js" />
+        <option value="$PROJECT_DIR$/packages/@vue/cli/bin/vue.js" />
+        <option value="$PROJECT_DIR$/packages/@vue/cli/lib/util/clearConsole.js" />
+        <option value="$PROJECT_DIR$/packages/@vue/cli/lib/options.js" />
+        <option value="$PROJECT_DIR$/packages/@vue/cli/lib/create.js" />
+        <option value="$PROJECT_DIR$/packages/@vue/cli/lib/PromptModuleAPI.js" />
+        <option value="$PROJECT_DIR$/packages/@vue/cli/lib/promptModules/babel.js" />
+        <option value="$PROJECT_DIR$/packages/@vue/cli/lib/Creator.js" />
       </list>
     </option>
   </component>
@@ -205,17 +325,17 @@
       <path value="$PROJECT_DIR$/packages/vue-cli-version-marker/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-227" />
-    <option name="y" value="-1080" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="height" value="737" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -231,28 +351,42 @@
             <path>
               <item name="vue-cli" type="b2602c69:ProjectViewProjectNode" />
               <item name="vue-cli" type="462c0819:PsiDirectoryNode" />
-              <item name="hello" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vue-cli" type="b2602c69:ProjectViewProjectNode" />
               <item name="vue-cli" type="462c0819:PsiDirectoryNode" />
-              <item name="hello" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="@vue" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vue-cli" type="b2602c69:ProjectViewProjectNode" />
               <item name="vue-cli" type="462c0819:PsiDirectoryNode" />
-              <item name="hello" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="@vue" type="462c0819:PsiDirectoryNode" />
+              <item name="cli" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vue-cli" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue-cli" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="@vue" type="462c0819:PsiDirectoryNode" />
+              <item name="cli" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vue-cli" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue-cli" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="@vue" type="462c0819:PsiDirectoryNode" />
+              <item name="cli" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="promptModules" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -324,32 +458,57 @@
       <workItem from="1538225119466" duration="506000" />
       <workItem from="1538272138026" duration="16962000" />
       <workItem from="1538366623912" duration="121000" />
-      <workItem from="1538366912456" duration="2824000" />
+      <workItem from="1538366912456" duration="4782000" />
+      <workItem from="1538462484230" duration="3758000" />
+      <workItem from="1538492214660" duration="3287000" />
+      <workItem from="1538548613474" duration="9038000" />
+      <workItem from="1538637381677" duration="1382000" />
+      <workItem from="1538967726158" duration="3616000" />
+      <workItem from="1539015855626" duration="3668000" />
+      <workItem from="1539048697457" duration="6186000" />
+      <workItem from="1539068169865" duration="6983000" />
+      <workItem from="1539085426334" duration="2651000" />
+      <workItem from="1539133263370" duration="9405000" />
+      <workItem from="1539225647763" duration="4914000" />
+      <workItem from="1539244261554" duration="1173000" />
+      <workItem from="1539246089021" duration="1688000" />
+      <workItem from="1539310078713" duration="13004000" />
+      <workItem from="1539435139251" duration="1082000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22444000" />
+    <option name="totallyTimeSpent" value="96237000" />
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-227" y="-1080" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49778435" visible="true" weight="0.1906019" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49778435" visible="true" weight="0.2942584" />
       <window_info id="Structure" order="1" sideWeight="0.5007032" side_tool="true" weight="0.20893142" />
-      <window_info id="npm" order="2" sideWeight="0.5022157" side_tool="true" visible="true" weight="0.1906019" />
+      <window_info id="npm" order="2" sideWeight="0.5022157" side_tool="true" weight="0.1906019" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49894404" weight="0.32896066" />
-      <window_info anchor="bottom" auto_hide="true" x="0" y="23" width="1280" height="737" id="Debug" order="3" type="FLOATING" visible="true" weight="0.3994374" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.500528" side_tool="true" visible="true" weight="0.31685168" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49947202" visible="true" weight="0.31685168" />
-      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.32153392" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50105596" side_tool="true" weight="0.31685168" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49894404" weight="0.2883263" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" x="282" y="185" width="918" height="273" id="Debug" order="11" weight="0.2925457" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -365,40 +524,45 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/scripts/release.js</url>
-          <line>43</line>
-          <option name="timeStamp" value="4" />
+          <url>file://$PROJECT_DIR$/packages/@vue/cli/lib/Creator.js</url>
+          <line>156</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="148" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/scripts/release.js</url>
-          <line>68</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/scripts/release.js</url>
-          <line>76</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/scripts/syncDeps.js</url>
-          <line>94</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/scripts/syncDeps.js</url>
-          <line>149</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/scripts/syncDeps.js</url>
-          <line>187</line>
-          <option name="timeStamp" value="10" />
+          <url>file://$PROJECT_DIR$/packages/@vue/cli/lib/promptModules/babel.js</url>
+          <line>12</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="149" />
         </line-breakpoint>
       </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint type="dart-exception">
+          <properties />
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>cmd.git</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>cmd</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>joi.boolean()</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>writeCache</expression-string>
         <language-id>JavaScript</language-id>
@@ -407,289 +571,336 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/packages/@vue/cli/README.md">
+    <entry file="file://$PROJECT_DIR$/packages/@vue/cli-shared-utils/lib/openChrome.applescript">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/bootstrap.js">
+    <entry file="file://$PROJECT_DIR$/packages/@vue/cli-shared-utils/lib/request.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/zh/README.md">
+    <entry file="file://$PROJECT_DIR$/packages/@vue/cli-shared-utils/lib/spinner.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/@vue/cli-shared-utils/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        <state relative-caret-position="136">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/packages/@vue/cli-init/index.js">
+    <entry file="file://$PROJECT_DIR$/packages/@vue/cli-shared-utils/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="44" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="44" />
+        <state relative-caret-position="561">
+          <caret line="33" column="4" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="33" selection-end-column="4" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/config.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/@vue/cli-ui/src/mixins/ClientState.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/@vue/cli-ui/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/@vue/cli-ui/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/@vue/cli-init/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/@vue/cli-ui/server.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.eslintignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/@vue/cli-overlay/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="9" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/@vue/cli-overlay/src/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/@vue/cli-overlay/.npmignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/@vue/cli-service/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/packages/@vue/cli-service/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/packages/@vue/cli-service/lib/Service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+        <state relative-caret-position="-612" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/@vue/cli-service/lib/PluginAPI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2118" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/@vue/cli-service/lib/options.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1251" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/@vue/cli-service/lib/webpack/analyzeBundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4539" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/@vue/cli-service/lib/commands/serve.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1190" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/@vue/cli-service/bin/vue-cli-service.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/@vue/cli-service/generator/vuex/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/@vue/cli-service/generator/vuex/template/src/store.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/util/clearConsole.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/@vue/cli/bin/vue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3655">
+          <caret line="215" column="2" selection-start-line="215" selection-start-column="2" selection-end-line="215" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/@vue/cli-service/generator/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/@vue/cli-plugin-babel/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/@vue/cli/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="737">
+          <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/packages/@vue/cli-plugin-eslint/generator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1021" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/lerna/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-575" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/lerna/bin/lerna.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/syncDeps.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="205" selection-start-line="205" selection-end-line="205" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#678#928#0" />
-            <element signature="e#966#1148#0" />
-            <element signature="e#1204#1493#0" />
-            <element signature="e#1560#2061#0" />
-            <element signature="n#!!block;n#genUpdateString#0" />
-            <element signature="e#2381#2413#0" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/release.js">
+    <entry file="file://$PROJECT_DIR$/packages/@vue/cli-shared-utils/lib/pluginResolution.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="87" column="2" selection-start-line="87" selection-start-column="2" selection-end-line="87" selection-end-column="2" />
+        <state relative-caret-position="17">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello/node_modules/@vue/cli-service/generator/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello/node_modules/@vue/cli-plugin-babel/generator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/util/configTransforms.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/ConfigTransform.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/util/sortObject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/util/installDeps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="173" column="15" selection-start-line="173" selection-start-column="15" selection-end-line="173" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello/node_modules/@vue/cli-plugin-eslint/generator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/util/injectImportsAndOptions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/invoke.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/util/.npmignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/GeneratorAPI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2907">
+          <caret line="171" column="37" selection-start-line="171" selection-start-column="37" selection-end-line="171" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/add.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/util/features.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/options.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/util/createTools.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="12" />
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/create.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="69" column="30" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/Generator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-69">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/Creator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="62" column="48" selection-start-line="62" selection-start-column="48" selection-end-line="62" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/GeneratorAPI.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5407" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/inspect.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="15" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/invoke.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-935" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/options.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1242" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/ui.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-273" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/promptModules/babel.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/promptModules/cssPreprocessors.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        <state relative-caret-position="527">
+          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/promptModules/e2e.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/util/normalizeFilePaths.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        <state relative-caret-position="170">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/promptModules/linter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        <state relative-caret-position="289">
+          <caret line="71" column="45" selection-start-line="71" selection-start-column="45" selection-end-line="71" selection-end-column="45" />
+          <folding>
+            <element signature="e#134#392#0" />
+            <element signature="e#690#1321#0" />
+            <element signature="e#1347#1741#0" />
+            <element signature="e#1789#2013#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/promptModules/pwa.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/util/clearConsole.js">
+    <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/promptModules/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="43" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/util/configTransforms.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-732" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/util/mergeDeps.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/util/loadCommand.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/promptModules/vuex.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        <state>
+          <folding>
+            <element signature="e#78#219#0" />
+            <element signature="e#241#655#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/promptModules/typescript.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-224">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#46#268#0" />
+            <element signature="e#290#612#0" />
+            <element signature="e#634#994#0" />
+            <element signature="e#1042#1456#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/promptModules/vuex.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#46#190#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/promptModules/unit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/promptModules/router.js">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="e#46#259#0" />
+            <element signature="e#281#622#0" />
+            <element signature="e#670#872#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/packages/@vue/cli-ui-addon-webpack/package.json">
+    <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/create.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        <state relative-caret-position="464">
+          <caret line="77" column="22" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/packages/@vue/cli/package.json">
+    <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/PromptModuleAPI.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="709">
-          <caret line="58" column="3" selection-start-line="58" selection-start-column="3" selection-end-line="58" selection-end-column="3" />
+        <state relative-caret-position="306">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lerna.json">
+    <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/Generator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        <state relative-caret-position="208">
+          <caret line="71" column="15" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/packages/@vue/cli-ui/package.json">
+    <entry file="file://$PROJECT_DIR$/packages/@vue/cli/node_modules/pify/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        <state relative-caret-position="117">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hello/package.json">
+    <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/promptModules/babel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="136">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/packages/@vue/cli/bin/vue.js">
+    <entry file="file://$PROJECT_DIR$/packages/@vue/cli/lib/Creator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="65" column="29" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="29" />
+        <state relative-caret-position="343">
+          <caret line="86" column="14" lean-forward="true" selection-start-line="86" selection-start-column="14" selection-end-line="86" selection-end-column="14" />
+          <folding>
+            <element signature="e#7040#8002#0" />
+            <element signature="e#8040#9252#0" />
+            <element signature="e#9339#9985#0" />
+            <element signature="e#10027#10189#0" />
+            <element signature="e#10242#11009#0" />
+            <element signature="e#11036#12364#0" />
+            <element signature="e#12391#12868#0" />
+            <element signature="e#12905#13221#0" />
+          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hello/babel.config.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

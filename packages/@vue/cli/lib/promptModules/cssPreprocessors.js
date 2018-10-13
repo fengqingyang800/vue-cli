@@ -2,7 +2,7 @@ module.exports = cli => {
   cli.injectFeature({
     name: 'CSS Pre-processors',
     value: 'css-preprocessor',
-    description: 'Add support for CSS pre-processors like Sass, Less or Stylus',
+    description: '添加对CSS预处理器（Sass、Less 和 Stylus的支持）',
     link: 'https://cli.vuejs.org/guide/css.html'
   })
 

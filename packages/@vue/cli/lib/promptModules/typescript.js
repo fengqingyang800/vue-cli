@@ -3,7 +3,7 @@ module.exports = cli => {
     name: 'TypeScript',
     value: 'ts',
     short: 'TS',
-    description: 'Add support for the TypeScript language',
+    description: '增加TypeScript语言的支持',
     link: 'https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-typescript',
     plugins: ['typescript']
   })

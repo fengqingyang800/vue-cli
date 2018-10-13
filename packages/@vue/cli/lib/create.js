@@ -8,16 +8,22 @@ const { getPromptModules } = require('./util/createTools')
 const { error, stopSpinner, exit } = require('@vue/cli-shared-utils')
 const validateProjectName = require('validate-npm-package-name')
 
+/**
+ * 创建项目
+ * */
 async function create (projectName, options) {
+  // 设置代理，devServer用
   if (options.proxy) {
     process.env.HTTP_PROXY = options.proxy
   }
 
   const cwd = options.cwd || process.cwd()
+  // 判断是否为当前目录
   const inCurrent = projectName === '.'
   const name = inCurrent ? path.relative('../', cwd) : projectName
+  // 设置目标目录
   const targetDir = path.resolve(cwd, projectName || '.')
-
+  // 校验项目名称是否合法
   const result = validateProjectName(name)
   if (!result.validForNewPackages) {
     console.error(chalk.red(`Invalid project name: "${projectName}"`))
@@ -27,10 +33,11 @@ async function create (projectName, options) {
     exit(1)
   }
 
+  // 校验目录是否已经存在
   if (fs.existsSync(targetDir)) {
     if (options.force) {
       await fs.remove(targetDir)
-    } else {
+    } else { // 目录已经存在的情况下
       await clearConsole()
       if (inCurrent) {
         const { ok } = await inquirer.prompt([
@@ -65,8 +72,9 @@ async function create (projectName, options) {
       }
     }
   }
-
+  // 调用创建器
   const creator = new Creator(name, targetDir, getPromptModules())
+  // 真正的去创建工程
   await creator.create(options)
 }
 

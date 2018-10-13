@@ -3,7 +3,7 @@ module.exports = cli => {
     name: 'Unit Testing',
     value: 'unit',
     short: 'Unit',
-    description: 'Add a Unit Testing solution like Jest or Mocha',
+    description: '添加一个单元测试解决方案，例如Jest或者Mocha',
     link: 'https://cli.vuejs.org/config/#unit-testing',
     plugins: ['unit-jest', 'unit-mocha']
   })

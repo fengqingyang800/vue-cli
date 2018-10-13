@@ -1,9 +1,10 @@
 module.exports = cli => {
+  // 注入Babel特性
   cli.injectFeature({
     name: 'Babel',
     value: 'babel',
     short: 'Babel',
-    description: 'Transpile modern JavaScript to older versions (for compatibility)',
+    description: '将modern版本的js转化程=成老版本的js(兼容性)',
     link: 'https://babeljs.io/',
     checked: true
   })

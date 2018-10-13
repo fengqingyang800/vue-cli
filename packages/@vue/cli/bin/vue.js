@@ -53,21 +53,21 @@ program
   // 设置使用方法，输出内容
   .usage('<command> [options]')
 
-// 创建命令
+// 创建工程命令
 program
   .command('create <app-name>')
   .description('通过 vue-cli-service 创建一个新的工程')
-  .option('-p, --preset <presetName>', '跳过提示，使用默认的或者远程的preset')
-  .option('-d, --default', '跳过提示，使用默认的preset')
-  .option('-i, --inlinePreset <json>', 'Skip prompts and use inline JSON string as preset')
-  .option('-m, --packageManager <command>', '安装依赖的时候使用指定的客户端')
-  .option('-r, --registry <url>', '使用指定的源安装依赖(only for npm)')
-  .option('-g, --git [message]', '使用初始提交消息强制git初始化')
+  .option('-p, --preset <presetName>', '忽略提示符并使用已保存的或远程的预设选项')
+  .option('-d, --default', '忽略提示符并使用默认预设选项')
+  .option('-i, --inlinePreset <json>', '忽略提示符并使用内联的 JSON 字符串预设选项')
+  .option('-m, --packageManager <command>', '在安装依赖时使用指定的 npm 客户端')
+  .option('-r, --registry <url>', '在安装依赖时使用指定的 npm registry (仅用于 npm 客户端)')
+  .option('-g, --git [message]', '强制 / 跳过 git 初始化，并可选的指定初始化提交信息')
   .option('-n, --no-git', '跳过git初始化')
-  .option('-f, --force', '创建工程时，如果目录已经存在则覆盖')
-  .option('-c, --clone', '当获取远程preset时使用git克隆')
-  .option('-x, --proxy', '创建工程时使用指定的代理')
-  .option('-b, --bare', '没有初学者指导的脚手架项目')
+  .option('-f, --force', '覆写目标目录可能存在的配置')
+  .option('-c, --clone', '使用 git clone 获取远程预设选项')
+  .option('-x, --proxy', '使用指定的代理创建项目')
+  .option('-b, --bare', '创建项目时省略默认组件中的新手指导信息')
   // 为命令注册回调函数
   .action((name, cmd) => {
     const options = cleanArgs(cmd)
@@ -80,7 +80,7 @@ program
 
 program
   .command('add <plugin> [pluginOptions]')
-  .description('install a plugin and invoke its generator in an already created project')
+  .description('在一个已经创建的项目中添加一个插件并且调用该插件的生成器')
   .allowUnknownOption()
   .action((plugin) => {
     require('../lib/add')(plugin, minimist(process.argv.slice(3)))
@@ -88,7 +88,7 @@ program
 
 program
   .command('invoke <plugin> [pluginOptions]')
-  .description('invoke the generator of a plugin in an already created project')
+  .description('在已经创建的项目中调用已经存在的插件的生成器')
   .allowUnknownOption()
   .action((plugin) => {
     require('../lib/invoke')(plugin, minimist(process.argv.slice(3)))
@@ -159,7 +159,7 @@ program
     require('../lib/config')(value, cleanArgs(cmd))
   })
 
-// output help information on unknown commands
+// 对不认识的命令输出帮助文件
 program
   .arguments('<command>')
   .action((cmd) => {
@@ -200,8 +200,9 @@ if (!process.argv.slice(2).length) {
   program.outputHelp()
 }
 
-// commander passes the Command object itself as options,
-// extract only actual options into a fresh object.
+/**
+ * cmd对象中的一个命令和自定义的命令冲突，则保存这个命令
+ * */
 function cleanArgs (cmd) {
   const args = {}
   cmd.options.forEach(o => {

@@ -7,22 +7,26 @@ const { createSchema, validate } = require('@vue/cli-shared-utils/lib/validate')
 
 const rcPath = exports.rcPath = getRcPath('.vuerc')
 
-const presetSchema = createSchema(joi => joi.object().keys({
-  bare: joi.boolean(),
-  useConfigFiles: joi.boolean(),
-  router: joi.boolean(),
-  routerHistoryMode: joi.boolean(),
-  vuex: joi.boolean(),
-  cssPreprocessor: joi.string().only(['sass', 'less', 'stylus']),
-  plugins: joi.object().required(),
-  configs: joi.object()
-}))
+const presetSchema = createSchema(joi => {
+  return joi.object().keys({
+    bare: joi.boolean(),
+    useConfigFiles: joi.boolean(),
+    router: joi.boolean(),
+    routerHistoryMode: joi.boolean(),
+    vuex: joi.boolean(),
+    cssPreprocessor: joi.string().only(['sass', 'less', 'stylus']),
+    plugins: joi.object().required(),
+    configs: joi.object()
+  })
+})
 
-const schema = createSchema(joi => joi.object().keys({
-  packageManager: joi.string().only(['yarn', 'npm']),
-  useTaobaoRegistry: joi.boolean(),
-  presets: joi.object().pattern(/^/, presetSchema)
-}))
+const schema = createSchema(joi => {
+  return joi.object().keys({
+    packageManager: joi.string().only(['yarn', 'npm']),
+    useTaobaoRegistry: joi.boolean(),
+    presets: joi.object().pattern(/^/, presetSchema)
+  })
+})
 
 exports.validatePreset = preset => validate(preset, presetSchema, msg => {
   error(`invalid preset options: ${msg}`)
@@ -53,9 +57,11 @@ exports.defaults = {
 let cachedOptions
 
 exports.loadOptions = () => {
+  // 默认肯定是没有的
   if (cachedOptions) {
     return cachedOptions
   }
+  // 先从.vuerc中取默认配置文件
   if (fs.existsSync(rcPath)) {
     try {
       cachedOptions = JSON.parse(fs.readFileSync(rcPath, 'utf-8'))

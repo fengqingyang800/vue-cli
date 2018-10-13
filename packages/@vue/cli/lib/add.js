@@ -12,7 +12,7 @@ const {
 } = require('@vue/cli-shared-utils')
 
 async function add (pluginName, options = {}, context = process.cwd()) {
-  // special internal "plugins"
+  // 特殊的内部插件
   if (/^(@vue\/)?router$/.test(pluginName)) {
     return addRouter(context)
   }

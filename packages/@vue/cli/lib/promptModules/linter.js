@@ -6,7 +6,7 @@ module.exports = cli => {
     name: 'Linter / Formatter',
     value: 'linter',
     short: 'Linter',
-    description: 'Check and enforce code quality with ESLint or Prettier',
+    description: '通过ESLint或者Prettier检查保证代码质量',
     link: 'https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint',
     plugins: ['eslint'],
     checked: true

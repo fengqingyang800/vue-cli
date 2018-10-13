@@ -47,15 +47,17 @@ module.exports = class Creator extends EventEmitter {
     this.name = name
     this.context = process.env.VUE_CLI_CONTEXT = context
     const { presetPrompt, featurePrompt } = this.resolveIntroPrompts()
+    // 预设 - 可以解决为预设的集合
     this.presetPrompt = presetPrompt
     this.featurePrompt = featurePrompt
+    // 输出预设，当保存的时候使用
     this.outroPrompts = this.resolveOutroPrompts()
     this.injectedPrompts = []
     this.promptCompleteCbs = []
     this.createCompleteCbs = []
 
     this.run = this.run.bind(this)
-
+    // 处理Prompt
     const promptAPI = new PromptModuleAPI(this)
     promptModules.forEach(m => m(promptAPI))
   }
@@ -65,14 +67,17 @@ module.exports = class Creator extends EventEmitter {
     const { run, name, context, createCompleteCbs } = this
 
     if (!preset) {
+      // 检查是否有预设的preset,如果有则用指定的preset
       if (cliOptions.preset) {
         // vue create foo --preset bar
         preset = await this.resolvePreset(cliOptions.preset, cliOptions.clone)
       } else if (cliOptions.default) {
+        // 指定了默认的preset则用默认的preset
         // vue create foo --default
         preset = defaults.presets.default
       } else if (cliOptions.inlinePreset) {
         // vue create foo --inlinePreset {...}
+        // 使用给定的json字符串做为预设
         try {
           preset = JSON.parse(cliOptions.inlinePreset)
         } catch (e) {
@@ -328,19 +333,29 @@ module.exports = class Creator extends EventEmitter {
     return plugins
   }
 
+  /**
+   * 获取预设
+   * */
   getPresets () {
+    // 获取保存的配置项，.vuerc配置文件中会有预设值，
     const savedOptions = loadOptions()
+    // 合并预设值选项
     return Object.assign({}, savedOptions.presets, defaults.presets)
   }
 
+  /**
+   * 处理引导提示
+   * */
   resolveIntroPrompts () {
-    const presets = this.getPresets()
+    // 获取预设
+    const presets = this.getPresets();
     const presetChoices = Object.keys(presets).map(name => {
       return {
         name: `${name} (${formatFeatures(presets[name])})`,
         value: name
       }
     })
+    // 预设提示
     const presetPrompt = {
       name: 'preset',
       type: 'list',
@@ -353,6 +368,7 @@ module.exports = class Creator extends EventEmitter {
         }
       ]
     }
+
     const featurePrompt = {
       name: 'features',
       when: isManualMode,
